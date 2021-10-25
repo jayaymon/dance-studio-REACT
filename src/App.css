@@ -1,38 +1,57 @@
-.App {
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, .media-heading {
+  font-family: "Fredoka One", cursive;
+}
+
+h1 {
+  color: #1b40a3;
+}
+
+h2 {
+  color: #2872d4;
+}
+
+table {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-h2 {
+  color: #CEC8FF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.site-footer {
+  background-image: linear-gradient(#bbb012ce, #910c0c);
+  padding: 20px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.jumbotron {
+  margin: 0;
+  padding: 50px;
+  background-image: linear-gradient(to right, #bbb012ce, #910c0c);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  background-color: #000000
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.carousel {
+  border: solid #000000;
+}
+
+.modal-header {
+  background-image: linear-gradient(#bbb012ce, #910c0c);
 }
